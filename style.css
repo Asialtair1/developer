@@ -28,7 +28,7 @@ nav li{
 
 }
 .hero img{
-    width: 800px;
+    width: 100%;
     margin-top: 10px;
 }
 button{
@@ -37,4 +37,12 @@ button{
     border-radius: 5px;
     color: white;
     border: none;
+}
+@media screen and (max-width:570px) {
+    nav{
+        flex-direction: column;
+    }
+    header{
+        padding: 5px;
+    }
 }
