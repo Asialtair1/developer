@@ -79,7 +79,8 @@ button {
 
 .vl {
     border-left: 6px solid rebeccapurple;
-    height: 120px;
+    height: 160px;
+    border-radius: 2px;
 }
 
 .border {
@@ -92,7 +93,7 @@ button {
 .line {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 15px;
 }
 
 .architect {
@@ -125,11 +126,29 @@ button {
 
 }
 
+.awards {
+    padding: 50px 240px;
+}
+
+.award {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.icons-border {
+    border: 3px solid blueviolet;
+    padding: 10px;
+    width: 120px;
+    text-align: center;
+}
+
 
 @media screen and (max-width:570px) {
 
     nav,
-    .architect {
+    .architect,
+    .award {
         flex-direction: column;
     }
 
@@ -159,6 +178,18 @@ button {
         height: 100%;
         width: 100%;
         margin-top: 10px;
+    }
+
+    .award {
+        margin-left: 120px;
+    }
+
+    .awards {
+        padding: 5px;
+        text-align: center;
+    }
+    .icons-border{
+        margin-top: 15px;
     }
 
 }
