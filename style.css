@@ -219,4 +219,8 @@ button {
         margin-left: 120px;
         gap: 30px;
     }
+    .copyright{
+        display: none;
+    }
+    
 }
