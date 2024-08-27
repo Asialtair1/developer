@@ -2,16 +2,39 @@
     font-family:sans-serif;
 }
 header{
-    color: FF900E;
+    background-color: bisque;
+    padding: 50px 240px;
+}
+.G3{
+    font-size: 30px;
+}
+.title{
+    font-size: 45px;
 }
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 nav > ul{
     display: flex;
+    gap: 20px;
 }
 nav li{
     list-style: none;
-    color: FF900E;
+}
+.hero{
+    text-align: center;
+
+}
+.hero img{
+    width: 800px;
+    margin-top: 10px;
+}
+button{
+    padding: 10px;
+    background-color: goldenrod;
+    border-radius: 5px;
+    color: white;
+    border: none;
 }
