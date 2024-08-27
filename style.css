@@ -1,0 +1,17 @@
+*{
+    font-family:sans-serif;
+}
+header{
+    color: FF900E;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    color: FF900E;
+}
