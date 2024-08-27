@@ -142,13 +142,33 @@ button {
     width: 120px;
     text-align: center;
 }
+.Sponspors{
+    text-align: center;
+}
+.IMGAGE{
+    filter:  grayscale(100%);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 240px;
+    height: 30px;
+}
+.copyright{
+    background-color: bisque;
+    border:1px solid;
+    width:700px ;
+    margin-left: 270px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 2px;
+    border-style: none;
+}
 
 
 @media screen and (max-width:570px) {
 
     nav,
     .architect,
-    .award {
+    .award{
         flex-direction: column;
     }
 
@@ -191,5 +211,12 @@ button {
     .icons-border{
         margin-top: 15px;
     }
-
+    .IMGAGE{
+        flex-direction: column;
+        width:30% ;
+        margin-top: 25px;
+        padding: 5px;
+        margin-left: 120px;
+        gap: 30px;
+    }
 }
