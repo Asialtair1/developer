@@ -1,48 +1,164 @@
-*{
-    font-family:sans-serif;
+* {
+    font-family: sans-serif;
 }
-header{
+
+header {
     background-color: bisque;
     padding: 50px 240px;
 }
-.G3{
+
+.G3 {
     font-size: 30px;
 }
-.title{
+
+.title {
     font-size: 45px;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     gap: 20px;
 }
-nav li{
+
+nav li {
     list-style: none;
 }
-.hero{
+
+.hero {
     text-align: center;
 
 }
-.hero img{
+
+.hero img {
     width: 100%;
     margin-top: 10px;
 }
-button{
-    padding: 10px;
-    background-color: goldenrod;
+
+button {
+    padding: 15px;
+    background-color: rebeccapurple;
     border-radius: 5px;
     color: white;
     border: none;
 }
+
+.secound-items {
+    display: flex;
+    padding: 50px 270px;
+    gap: 30px;
+    align-items: center;
+}
+
+.colour {
+    color: blueviolet;
+}
+
+.size {
+    font-weight: 200;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.team img {
+    width: 200px;
+}
+
+.vl {
+    border-left: 6px solid rebeccapurple;
+    height: 120px;
+}
+
+.border {
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.86);
+    margin-top: 10px;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.architect {
+    display: flex;
+    padding: 50px 240px;
+    gap: 10px;
+}
+
+.line {
+    display: flex;
+}
+
+.architect img {
+    width: 400px;
+    height: 800px;
+    position: relative;
+}
+
+.Experience {
+    background-color: blueviolet;
+    color: white;
+    height: 100px;
+    width: 150px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+    left: 20px;
+
+}
+
+
 @media screen and (max-width:570px) {
-    nav{
+
+    nav,
+    .architect {
         flex-direction: column;
     }
-    header{
+
+    header,
+    .secound-items,
+    .architect {
         padding: 5px;
     }
+
+    .team {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .team img {
+        width: 100%;
+    }
+
+    .secound-items {
+        flex-direction: column-reverse;
+    }
+
+    .middle {
+        text-align: center;
+    }
+
+    .architect img {
+        height: 100%;
+        width: 100%;
+        margin-top: 10px;
+    }
+
 }
